@@ -17,7 +17,7 @@ apis:
   - url: https://doc.babylonjs.com/typedoc/modules/BABYLON
     type: Documentation
   - url: https://www.npmjs.com/package/@babylonjs/core
-    type: SDK
+    type: SDKs
   - url: https://github.com/BabylonJS/Babylon.js/tree/master/packages/dev/core
     type: SourceCode
   description: The core Babylon.js engine and scene graph. Provides the Engine and Scene abstractions, cameras, lights, meshes,
@@ -35,7 +35,7 @@ apis:
   - url: https://doc.babylonjs.com/features/featuresDeepDive/gui
     type: Documentation
   - url: https://www.npmjs.com/package/@babylonjs/gui
-    type: SDK
+    type: SDKs
   - url: https://gui.babylonjs.com/
     type: Sandbox
   - url: https://github.com/BabylonJS/Babylon.js/tree/master/packages/dev/gui
@@ -57,7 +57,7 @@ apis:
   - url: https://doc.babylonjs.com/features/featuresDeepDive/importers
     type: Documentation
   - url: https://www.npmjs.com/package/@babylonjs/loaders
-    type: SDK
+    type: SDKs
   - url: https://github.com/BabylonJS/Babylon.js/tree/master/packages/dev/loaders
     type: SourceCode
   description: Asset importers for Babylon.js — glTF 2.0 (with KHR extensions), OBJ, STL, USDZ, SPLAT (Gaussian splats),
@@ -75,7 +75,7 @@ apis:
   - url: https://doc.babylonjs.com/features/featuresDeepDive/materials
     type: Documentation
   - url: https://www.npmjs.com/package/@babylonjs/materials
-    type: SDK
+    type: SDKs
   - url: https://github.com/BabylonJS/Babylon.js/tree/master/packages/dev/materials
     type: SourceCode
   description: Library of advanced and specialty materials — water, lava, fire, fur, terrain, cell, mix, gradient, sky,
@@ -92,7 +92,7 @@ apis:
   - url: https://doc.babylonjs.com/features/featuresDeepDive/postProcesses
     type: Documentation
   - url: https://www.npmjs.com/package/@babylonjs/post-processes
-    type: SDK
+    type: SDKs
   - url: https://github.com/BabylonJS/Babylon.js/tree/master/packages/dev/postProcesses
     type: SourceCode
   description: Additional post-processing effects beyond core — including ASCII art, anaglyph, digital rain, ocean, and
@@ -109,7 +109,7 @@ apis:
   - url: https://doc.babylonjs.com/features/featuresDeepDive/materials/using/proceduralTextures
     type: Documentation
   - url: https://www.npmjs.com/package/@babylonjs/procedural-textures
-    type: SDK
+    type: SDKs
   - url: https://github.com/BabylonJS/Babylon.js/tree/master/packages/dev/proceduralTextures
     type: SourceCode
   description: GPU-generated procedural textures — brick, cloud, fire, grass, marble, normal-map, perlin-noise, road, starfield,
@@ -128,7 +128,7 @@ apis:
   - url: https://doc.babylonjs.com/features/featuresDeepDive/Exporters
     type: Documentation
   - url: https://www.npmjs.com/package/@babylonjs/serializers
-    type: SDK
+    type: SDKs
   - url: https://github.com/BabylonJS/Babylon.js/tree/master/packages/dev/serializers
     type: SourceCode
   description: Scene exporters that serialize a live Babylon.js scene to glTF 2.0, OBJ, STL, or .babylon JSON. Used by
@@ -145,7 +145,7 @@ apis:
   - url: https://doc.babylonjs.com/toolsAndResources/inspector
     type: Documentation
   - url: https://www.npmjs.com/package/@babylonjs/inspector
-    type: SDK
+    type: SDKs
   - url: https://github.com/BabylonJS/Babylon.js/tree/master/packages/tools/inspector
     type: SourceCode
   description: Embeddable developer tool that overlays a live tree of every Babylon scene object — nodes, materials, textures,
@@ -261,7 +261,7 @@ apis:
   - url: https://github.com/BabylonJS/BabylonReactNative
     type: SourceCode
   - url: https://www.npmjs.com/package/@babylonjs/react-native
-    type: SDK
+    type: SDKs
   description: React Native binding that runs Babylon Native on iOS and Android with a React component (`EngineView`) for
     embedding Babylon scenes in cross-platform mobile applications. Published as `@babylonjs/react-native`.
 - aid: babylon-js:babylonjs-editor
@@ -362,11 +362,11 @@ common:
   url: https://github.com/BabylonJS/Babylon.js/blob/master/contributing.md
 - type: ChangeLog
   url: https://doc.babylonjs.com/setup/support/whatsNew
-- type: Releases
+- type: ReleaseNotes
   url: https://github.com/BabylonJS/Babylon.js/releases
 - type: Issues
   url: https://github.com/BabylonJS/Babylon.js/issues
-- type: Forum
+- type: Forums
   url: https://forum.babylonjs.com/
 - type: Blog
   url: https://babylonjs.medium.com/
@@ -376,37 +376,37 @@ common:
   url: https://twitter.com/babylonjs
 - type: TypeDoc
   url: https://doc.babylonjs.com/typedoc/modules/BABYLON
-- type: SDK
+- type: SDKs
   url: https://www.npmjs.com/package/@babylonjs/core
   name: '@babylonjs/core'
-- type: SDK
+- type: SDKs
   url: https://www.npmjs.com/package/@babylonjs/gui
   name: '@babylonjs/gui'
-- type: SDK
+- type: SDKs
   url: https://www.npmjs.com/package/@babylonjs/loaders
   name: '@babylonjs/loaders'
-- type: SDK
+- type: SDKs
   url: https://www.npmjs.com/package/@babylonjs/materials
   name: '@babylonjs/materials'
-- type: SDK
+- type: SDKs
   url: https://www.npmjs.com/package/@babylonjs/post-processes
   name: '@babylonjs/post-processes'
-- type: SDK
+- type: SDKs
   url: https://www.npmjs.com/package/@babylonjs/procedural-textures
   name: '@babylonjs/procedural-textures'
-- type: SDK
+- type: SDKs
   url: https://www.npmjs.com/package/@babylonjs/serializers
   name: '@babylonjs/serializers'
-- type: SDK
+- type: SDKs
   url: https://www.npmjs.com/package/@babylonjs/inspector
   name: '@babylonjs/inspector'
-- type: SDK
+- type: SDKs
   url: https://www.npmjs.com/package/@babylonjs/node-editor
   name: '@babylonjs/node-editor'
-- type: SDK
+- type: SDKs
   url: https://www.npmjs.com/package/babylonjs
   name: babylonjs (UMD)
-- type: SDK
+- type: SDKs
   url: https://www.npmjs.com/package/@babylonjs/react-native
   name: '@babylonjs/react-native'
 - type: Sandbox
@@ -430,22 +430,22 @@ common:
 - type: API
   url: https://snippet.babylonjs.com/
   name: Snippet Server
-- type: Tool
+- type: Tools
   url: https://spector.babylonjs.com/
   name: Spector.js
-- type: Tool
+- type: Tools
   url: https://editor.babylonjs.com/
   name: Babylon.js Editor
-- type: Tool
+- type: Tools
   url: https://github.com/BabylonJS/BabylonNative
   name: Babylon Native
-- type: Tool
+- type: Tools
   url: https://github.com/BabylonJS/BabylonReactNative
   name: Babylon React Native
-- type: Tool
+- type: Tools
   url: https://github.com/BabylonJS/BabylonToolkit
   name: Babylon Toolkit (Unity / Unreal)
-- type: Tool
+- type: Tools
   url: https://github.com/BabylonJS/Exporters
   name: DCC Exporters (3ds Max / Maya / Blender)
 - type: Integrations
