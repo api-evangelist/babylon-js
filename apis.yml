@@ -28,6 +28,11 @@ apis:
   tags:
   - 3D
   - GUI
+  - Interfaces
+  - Controls
+  tags_raw:
+  - 3D
+  - GUI
   - Interface
   - Controls
   humanURL: https://doc.babylonjs.com/features/featuresDeepDive/gui
@@ -139,6 +144,11 @@ apis:
   - 3D
   - Inspector
   - Debug
+  - Developer Tools
+  tags_raw:
+  - 3D
+  - Inspector
+  - Debug
   - DeveloperTools
   humanURL: https://doc.babylonjs.com/toolsAndResources/inspector
   properties:
@@ -154,6 +164,14 @@ apis:
 - aid: babylon-js:babylonjs-node-editors
   name: Babylon.js Node Editors
   tags:
+  - 3D
+  - Shaders
+  - NodeEditor
+  - Visual Programming
+  - Materials
+  - Particles
+  - Geometry
+  tags_raw:
   - 3D
   - Shaders
   - NodeEditor
@@ -239,6 +257,11 @@ apis:
   - 3D
   - Native
   - C++
+  - Cross-Platform
+  tags_raw:
+  - 3D
+  - Native
+  - C++
   - CrossPlatform
   humanURL: https://github.com/BabylonJS/BabylonNative
   properties:
@@ -252,6 +275,11 @@ apis:
 - aid: babylon-js:babylon-react-native
   name: Babylon React Native
   tags:
+  - 3D
+  - React Native
+  - Mobile
+  - Native
+  tags_raw:
   - 3D
   - ReactNative
   - Mobile
@@ -267,6 +295,11 @@ apis:
 - aid: babylon-js:babylonjs-editor
   name: Babylon.js Editor
   tags:
+  - 3D
+  - Editor
+  - Visual Editor
+  - Authoring
+  tags_raw:
   - 3D
   - Editor
   - VisualEditor
@@ -317,6 +350,12 @@ apis:
   tags:
   - WebGL
   - WebGPU
+  - Developer Tools
+  - Debug
+  - GPU
+  tags_raw:
+  - WebGL
+  - WebGPU
   - DeveloperTools
   - Debug
   - GPU
@@ -330,6 +369,17 @@ apis:
     state change, shader, texture, and uniform — for any 3D web application, not only Babylon.js scenes.
 name: Babylon.js
 tags:
+- 3D
+- Game Engine
+- Rendering
+- WebGL
+- WebGPU
+- WebXR
+- TypeScript
+- glTF
+- Open-Source
+- Microsoft
+tags_raw:
 - 3D
 - Game Engine
 - Rendering
