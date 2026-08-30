@@ -28,7 +28,7 @@ apis:
   tags:
   - 3D
   - GUI
-  - Interfaces
+  - Interface
   - Controls
   tags_raw:
   - 3D
@@ -144,7 +144,7 @@ apis:
   - 3D
   - Inspector
   - Debug
-  - Developer Tools
+  - DeveloperTools
   tags_raw:
   - 3D
   - Inspector
@@ -167,7 +167,7 @@ apis:
   - 3D
   - Shaders
   - NodeEditor
-  - Visual Programming
+  - VisualProgramming
   - Materials
   - Particles
   - Geometry
@@ -257,7 +257,7 @@ apis:
   - 3D
   - Native
   - C++
-  - Cross-Platform
+  - CrossPlatform
   tags_raw:
   - 3D
   - Native
@@ -276,7 +276,7 @@ apis:
   name: Babylon React Native
   tags:
   - 3D
-  - React Native
+  - ReactNative
   - Mobile
   - Native
   tags_raw:
@@ -297,7 +297,7 @@ apis:
   tags:
   - 3D
   - Editor
-  - Visual Editor
+  - VisualEditor
   - Authoring
   tags_raw:
   - 3D
@@ -350,7 +350,7 @@ apis:
   tags:
   - WebGL
   - WebGPU
-  - Developer Tools
+  - DeveloperTools
   - Debug
   - GPU
   tags_raw:
