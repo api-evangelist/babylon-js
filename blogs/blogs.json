@@ -2,23 +2,21 @@
   "repo": "babylon-js",
   "feeds": [
     {
-      "source": "https://babylonjs.medium.com/feed",
-      "feed_url": "https://babylonjs.medium.com/feed",
-      "title": "",
-      "saved": 0,
-      "method": "feed",
-      "nature": "undetermined",
-      "nature_basis": null
-    },
-    {
       "source": "https://forum.babylonjs.com/",
       "feed_url": "https://forum.babylonjs.com/",
       "title": "",
       "saved": 0,
       "method": "none"
+    },
+    {
+      "source": "https://babylonjs.medium.com/feed",
+      "feed_url": "https://babylonjs.medium.com/feed",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     }
   ],
-  "fetched": "2026-08-30T22:33:40Z",
+  "fetched": "2026-09-06T19:17:18Z",
   "post_count": 10,
   "feed_nature": "undetermined",
   "feed_nature_basis": null,
