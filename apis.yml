@@ -29,7 +29,7 @@ apis:
   - 3D
   - GUI
   - Interfaces
-  - Controls
+  - Control
   tags_raw:
   - 3D
   - GUI
@@ -204,6 +204,11 @@ apis:
   - 3D
   - Sandbox
   - Snippets
+  - Example
+  tags_raw:
+  - 3D
+  - Sandbox
+  - Snippets
   - Examples
   humanURL: https://playground.babylonjs.com/
   properties:
@@ -317,6 +322,12 @@ apis:
 - aid: babylon-js:babylon-toolkit
   name: Babylon Toolkit
   tags:
+  - 3D
+  - Unity
+  - Unreal
+  - Exporter
+  - Pipelines
+  tags_raw:
   - 3D
   - Unity
   - Unreal
