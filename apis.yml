@@ -388,7 +388,7 @@ tags:
 - WebXR
 - TypeScript
 - glTF
-- Open-Source
+- Open Source
 - Microsoft
 tags_raw:
 - 3D
@@ -401,17 +401,23 @@ tags_raw:
 - glTF
 - Open Source
 - Microsoft
+- Open-Source
 kind: contract
 deliveryModel:
-  model: unknown
-  open_source: unknown
+  model: self-hosted
+  license: Apache-2.0
+  license_evidence:
+    repo: babylonjs/babylon.js
+    spdx: Apache-2.0
+    stars: 26109
+  open_source: true
   commercial: false
   callable_host: false
-  label: Delivery model not determined — needs a product licence on record
-  confidence: low
+  label: Self-hosted open source · you run it yourself
+  confidence: medium
   source:
-  - repository-unlicensed
-  generated: '2026-08-28'
+  - repository-license
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: unknown
