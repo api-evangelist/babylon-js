@@ -1,4 +1,4 @@
-# Babylon.js (babylon-js)
+# Babylon.js
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,224 +64,105 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Babylon.js is an Apache-2.0 licensed, TypeScript-first open-source 3D engine and rendering framework sponsored by Microsoft and developed in the public BabylonJS GitHub organization. It targets WebGL, WebGPU, and WebXR in the browser, and DirectX, Metal, Vulkan, OpenGL, and OpenGL ES natively through Babylon Native — including a Babylon React Native binding for mobile. The framework ships as a family of scoped npm packages plus a rich tooling surface — Playground, Sandbox, Inspector, Spector.js, the Node Material / Geometry / Particle / Render-Graph editors, a community Editor, the Babylon Toolkit (Unity / Unreal exporters), DCC exporters for 3ds Max / Maya / Blender, and a public Snippet API at `snippet.babylonjs.com`.
+Babylon.js is an Apache-2.0 licensed, TypeScript-first open-source 3D engine and rendering framework sponsored by Microsoft and developed in the public BabylonJS GitHub organization. It targets WebGL, WebGPU, and WebXR in the browser, and DirectX, Metal, Vulkan, OpenGL, and OpenGL ES natively through Babylon Native — including a Babylon React Native binding for mobile. The framework ships as a family of scoped npm packages (`@babylonjs/core`, `gui`, `loaders`, `materials`, `inspector`, `serializers`, `post-processes`, `procedural-textures`, `node-editor`) plus a rich tooling surface — the Playground IDE, Sandbox asset viewer, Inspector, Spector.js, the Node Material / Geometry / Particle / Render-Graph editors, a community Editor, the Babylon Toolkit (Unity / Unreal exporters), and DCC exporters for 3ds Max, Maya, and Blender — all backed by the public Snippet API at `snippet.babylonjs.com` that powers shareable Playground and node-editor assets.
 
-**URL:** [Visit APIs.json](https://raw.githubusercontent.com/api-evangelist/babylon-js/refs/heads/main/apis.yml)
+**Areas:** 3D · Game Engine · Rendering · WebGL · WebGPU · WebXR · TypeScript · glTF · Open Source · Microsoft
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=opensource-api-evangelist&utm_content=repo)
+## Babylon.js on APIs.io
 
-## Tags
+Everything profiled for Babylon.js is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/babylon-js/](https://apis.io/providers/babylon-js/)** — or go straight to one of the APIs or properties below.
 
- - 3D, Game Engine, Rendering, WebGL, WebGPU, WebXR, TypeScript, glTF, Open Source, Microsoft
+### APIs (18)
 
-## Timestamps
+- [Babylon.js Core](https://apis.io/apis/babylon-js/babylonjs-core/) — The core Babylon.js engine and scene graph. Provides the Engine and Scene abstractions, cameras, lights, meshes, materials, textures, animation,…
+- [Babylon.js GUI](https://apis.io/apis/babylon-js/babylonjs-gui/) — 2D and 3D GUI library for Babylon.js — buttons, sliders, panels, input boxes, color pickers, and 3D holographic controls — rendered through a dynamic…
+- [Babylon.js Loaders](https://apis.io/apis/babylon-js/babylonjs-loaders/) — Asset importers for Babylon.js — glTF 2.0 (with KHR extensions), OBJ, STL, USDZ, SPLAT (Gaussian splats), and others. Loaders parse external assets into the…
+- [Babylon.js Materials](https://apis.io/apis/babylon-js/babylonjs-materials/) — Library of advanced and specialty materials — water, lava, fire, fur, terrain, cell, mix, gradient, sky, grid, normal, shadow-only, and others — built on…
+- [Babylon.js Post-Processes](https://apis.io/apis/babylon-js/babylonjs-post-processes/) — Additional post-processing effects beyond core — including ASCII art, anaglyph, digital rain, ocean, and other stylized image pipelines. Composes on top of…
+- [Babylon.js Procedural Textures](https://apis.io/apis/babylon-js/babylonjs-procedural-textures/) — GPU-generated procedural textures — brick, cloud, fire, grass, marble, normal-map, perlin-noise, road, starfield, and wood — packaged separately as…
+- [Babylon.js Serializers](https://apis.io/apis/babylon-js/babylonjs-serializers/) — Scene exporters that serialize a live Babylon.js scene to glTF 2.0, OBJ, STL, or .babylon JSON. Used by Sandbox, the Editor, and the Playground export flow,…
+- [Babylon.js Inspector](https://apis.io/apis/babylon-js/babylonjs-inspector/) — Embeddable developer tool that overlays a live tree of every Babylon scene object — nodes, materials, textures, cameras, lights, animations, particles, and…
+- [Babylon.js Node Editors](https://apis.io/apis/babylon-js/babylonjs-node-editors/) — Visual node-graph authoring tools — Node Material Editor (NME), Node Geometry Editor (NGE), Node Particle Editor (NPE), and Node Render Graph Editor — that…
+- [Babylon.js Playground](https://apis.io/apis/babylon-js/babylonjs-playground/) — Hosted browser-based IDE for writing and sharing Babylon.js scenes as TypeScript snippets. Backed by the Babylon Snippet Server which assigns shareable…
+- [Babylon.js Sandbox](https://apis.io/apis/babylon-js/babylonjs-sandbox/) — Drop-in browser viewer for 3D assets — glTF/GLB, OBJ, STL, USDZ, SPLAT, and .babylon files — with Inspector integration, environment/IBL configuration, and…
+- [Babylon.js Snippet API](https://apis.io/apis/babylon-js/babylonjs-snippet-server/) — Public REST endpoint hosted at `https://snippet.babylonjs.com/` that stores and serves serialized JSON snippets for the Playground, Node Material Editor,…
+- [Babylon Native](https://apis.io/apis/babylon-js/babylon-native/) — C++ host that runs the Babylon.js engine on top of native graphics APIs (DirectX, Metal, Vulkan, OpenGL, OpenGL ES) without a browser. Targets Windows,…
+- [Babylon React Native](https://apis.io/apis/babylon-js/babylon-react-native/) — React Native binding that runs Babylon Native on iOS and Android with a React component (`EngineView`) for embedding Babylon scenes in cross-platform mobile…
+- [Babylon.js Editor](https://apis.io/apis/babylon-js/babylonjs-editor/) — Community-maintained visual editor for authoring Babylon.js scenes — scene graph, materials, animations, GUI, scripting, post-processing, and asset pipeline…
+- [Babylon Toolkit](https://apis.io/apis/babylon-js/babylon-toolkit/) — Community-maintained Unity and Unreal exporters and a runtime scripting layer that lets engines author scenes in Unity / Unreal and export them to…
+- [Babylon.js Exporters](https://apis.io/apis/babylon-js/babylonjs-exporters/) — First-party DCC exporters for 3ds Max, Maya, and Blender that emit .babylon and glTF 2.0 assets compatible with the Babylon.js runtime, Sandbox, and Editor…
+- [Spector.js](https://apis.io/apis/babylon-js/spectorjs/) — Browser extension and embeddable library that captures and inspects WebGL / WebGPU frames — every draw call, state change, shader, texture, and uniform —…
 
-- **Created:** 2026-05-25
-- **Modified:** 2026-05-25
+### Published properties
 
-## At a glance
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-| | |
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Babylon Js Domain Security](https://apis.io/security/babylon-js/babylon-js-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.babylonjs.com/)
+- [Documentation](https://doc.babylonjs.com/)
+- [Getting started](https://doc.babylonjs.com/setup/frameworkPackages/firstApp)
+- [Changelog](https://doc.babylonjs.com/setup/support/whatsNew)
+- [Blog](https://babylonjs.medium.com/)
+- [GitHub](https://github.com/BabylonJS)
+
+## API Evangelist rating
+
+**Kin Score 15.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| License | Apache-2.0 |
-| Sponsor | Microsoft |
-| Primary language | TypeScript |
-| Current version | 9.x (v9.9.1, May 2026) |
-| Render backends | WebGL2, WebGPU; DirectX / Metal / Vulkan / OpenGL via Babylon Native |
-| Package registry | npm (`@babylonjs/*` and `babylonjs`) |
-| Governance | Community-led on forum.babylonjs.com; CoC via Contributor Covenant 1.4 |
-| Source | [github.com/BabylonJS/Babylon.js](https://github.com/BabylonJS/Babylon.js) |
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 0.0 |
 
-## APIs
+**Agent readiness 0.0** — human-only
 
-### Babylon.js Core
-The core Babylon.js engine and scene graph — Engine, Scene, cameras, lights, meshes, materials, textures, animation, post-processing, particles, physics integration, audio, and the WebGL2 / WebGPU backends. Published as `@babylonjs/core`.
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-- [Documentation — Scene](https://doc.babylonjs.com/features/featuresDeepDive/scene)
-- [TypeDoc](https://doc.babylonjs.com/typedoc/modules/BABYLON)
-- [npm — @babylonjs/core](https://www.npmjs.com/package/@babylonjs/core)
-- [Source](https://github.com/BabylonJS/Babylon.js/tree/master/packages/dev/core)
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
 
-### Babylon.js GUI
-2D and 3D GUI library — buttons, sliders, panels, inputs, color pickers, and 3D holographic controls — rendered through a dynamic texture or as 3D meshes. Authored visually via the GUI Editor.
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/babylon-js/](https://apis.io/providers/babylon-js/).
 
-- [Documentation](https://doc.babylonjs.com/features/featuresDeepDive/gui)
-- [GUI Editor](https://gui.babylonjs.com/)
-- [npm — @babylonjs/gui](https://www.npmjs.com/package/@babylonjs/gui)
+## How this profile is made
 
-### Babylon.js Loaders
-Asset importers for glTF 2.0 (with KHR extensions), OBJ, STL, USDZ, SPLAT (Gaussian splats), and more.
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-- [Documentation](https://doc.babylonjs.com/features/featuresDeepDive/importers)
-- [npm — @babylonjs/loaders](https://www.npmjs.com/package/@babylonjs/loaders)
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Babylon.js: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-### Babylon.js Materials
-Specialty materials — water, lava, fire, fur, terrain, cell, mix, gradient, sky, grid, normal, shadow-only — built on top of Babylon's Standard and PBR materials.
+## Open an issue
 
-- [Documentation](https://doc.babylonjs.com/features/featuresDeepDive/materials)
-- [npm — @babylonjs/materials](https://www.npmjs.com/package/@babylonjs/materials)
-
-### Babylon.js Post-Processes
-Additional post-processing effects beyond core — ASCII art, anaglyph, digital rain, ocean, and other stylized pipelines.
-
-- [Documentation](https://doc.babylonjs.com/features/featuresDeepDive/postProcesses)
-- [npm — @babylonjs/post-processes](https://www.npmjs.com/package/@babylonjs/post-processes)
-
-### Babylon.js Procedural Textures
-GPU-generated procedural textures — brick, cloud, fire, grass, marble, normal-map, perlin-noise, road, starfield, wood.
-
-- [Documentation](https://doc.babylonjs.com/features/featuresDeepDive/materials/using/proceduralTextures)
-- [npm — @babylonjs/procedural-textures](https://www.npmjs.com/package/@babylonjs/procedural-textures)
-
-### Babylon.js Serializers
-Scene exporters that serialize a live Babylon scene to glTF 2.0, OBJ, STL, or .babylon JSON.
-
-- [Documentation](https://doc.babylonjs.com/features/featuresDeepDive/Exporters)
-- [npm — @babylonjs/serializers](https://www.npmjs.com/package/@babylonjs/serializers)
-
-### Babylon.js Inspector
-Embeddable developer tool overlaying a live tree of every Babylon scene object with property editing, gizmos, and tweakable shaders.
-
-- [Documentation](https://doc.babylonjs.com/toolsAndResources/inspector)
-- [npm — @babylonjs/inspector](https://www.npmjs.com/package/@babylonjs/inspector)
-
-### Babylon.js Node Editors
-Visual node-graph authoring tools — Node Material Editor (NME), Node Geometry Editor (NGE), Node Particle Editor (NPE), and Node Render Graph Editor — producing serializable JSON graphs that the core engine evaluates at runtime.
-
-- [Documentation](https://doc.babylonjs.com/toolsAndResources/nodeEditors)
-- [Node Material Editor](https://nme.babylonjs.com/)
-- [Node Geometry Editor](https://nge.babylonjs.com/)
-- [Node Particle Editor](https://npe.babylonjs.com/)
-
-### Babylon.js Playground
-Hosted browser-based IDE for writing and sharing Babylon scenes as TypeScript snippets. Backed by the Snippet Server with shareable IDs and a public read API at `snippet.babylonjs.com`.
-
-- [Documentation](https://doc.babylonjs.com/toolsAndResources/thePlayground)
-- [Playground](https://playground.babylonjs.com/)
-- [Snippet API](https://snippet.babylonjs.com/)
-
-### Babylon.js Sandbox
-Drop-in browser viewer for 3D assets — glTF/GLB, OBJ, STL, USDZ, SPLAT, .babylon — with Inspector integration, IBL environment, and animation playback. The reference glTF viewer for the Babylon pipeline.
-
-- [Documentation](https://doc.babylonjs.com/toolsAndResources/sandbox)
-- [Sandbox](https://sandbox.babylonjs.com/)
-
-### Babylon.js Snippet API
-Public REST endpoint at `https://snippet.babylonjs.com/` that stores and serves serialized JSON snippets for the Playground, Node Material Editor, Node Geometry Editor, Node Particle Editor, and GUI Editor. The same snippet IDs can be loaded at runtime via Babylon's snippet loaders to pull live assets into a scene.
-
-- [Documentation — Snippet Server](https://doc.babylonjs.com/toolsAndResources/thePlayground/playgroundSnippet)
-
-### Babylon Native
-C++ host that runs the Babylon.js engine on top of native graphics APIs (DirectX, Metal, Vulkan, OpenGL, OpenGL ES) without a browser. Targets Windows, macOS, Linux, Android, and iOS.
-
-- [Source](https://github.com/BabylonJS/BabylonNative)
-- [Documentation](https://doc.babylonjs.com/communityExtensions/BabylonNative)
-
-### Babylon React Native
-React Native binding that runs Babylon Native on iOS and Android with a React component (`EngineView`) for embedding Babylon scenes in cross-platform mobile applications.
-
-- [Source](https://github.com/BabylonJS/BabylonReactNative)
-- [npm — @babylonjs/react-native](https://www.npmjs.com/package/@babylonjs/react-native)
-
-### Babylon.js Editor
-Community-maintained visual editor for authoring Babylon.js scenes — scene graph, materials, animations, GUI, scripting, post-processing, and asset pipeline — exporting to runnable Babylon.js projects.
-
-- [Portal](https://editor.babylonjs.com/)
-- [Source](https://github.com/BabylonJS/Editor)
-
-### Babylon Toolkit
-Community-maintained Unity and Unreal exporters and a runtime scripting layer that lets engines author scenes in Unity / Unreal and export them to Babylon.js for web delivery.
-
-- [Source](https://github.com/BabylonJS/BabylonToolkit)
-
-### Babylon.js Exporters
-First-party DCC exporters for 3ds Max, Maya, and Blender that emit .babylon and glTF 2.0 assets compatible with the Babylon.js runtime, Sandbox, and Editor pipelines.
-
-- [Source](https://github.com/BabylonJS/Exporters)
-- [Documentation](https://doc.babylonjs.com/features/featuresDeepDive/Exporters)
-
-### Spector.js
-Browser extension and embeddable library that captures and inspects WebGL / WebGPU frames — every draw call, state change, shader, texture, and uniform — for any 3D web application.
-
-- [Portal](https://spector.babylonjs.com/)
-- [Source](https://github.com/BabylonJS/Spector.js)
-
-## Common Properties
-
-- [Portal — babylonjs.com](https://www.babylonjs.com/)
-- [Documentation — doc.babylonjs.com](https://doc.babylonjs.com/)
-- [GettingStarted](https://doc.babylonjs.com/setup/frameworkPackages/firstApp)
-- [GitHubOrganization — BabylonJS](https://github.com/BabylonJS)
-- [SourceCode — Babylon.js](https://github.com/BabylonJS/Babylon.js)
-- [License — Apache-2.0](https://github.com/BabylonJS/Babylon.js/blob/master/license.md)
-- [Code of Conduct](https://github.com/BabylonJS/Babylon.js/blob/master/CODE_OF_CONDUCT.md)
-- [Contributing Guide](https://github.com/BabylonJS/Babylon.js/blob/master/contributing.md)
-- [ChangeLog — What's New](https://doc.babylonjs.com/setup/support/whatsNew)
-- [Releases](https://github.com/BabylonJS/Babylon.js/releases)
-- [Issues](https://github.com/BabylonJS/Babylon.js/issues)
-- [Forum — forum.babylonjs.com](https://forum.babylonjs.com/)
-- [Blog — Medium](https://babylonjs.medium.com/)
-- [YouTube](https://www.youtube.com/@BabylonJSEngine)
-- [Twitter / X — @babylonjs](https://twitter.com/babylonjs)
-- [TypeDoc](https://doc.babylonjs.com/typedoc/modules/BABYLON)
-- [Sandbox — Playground](https://playground.babylonjs.com/)
-- [Sandbox — Sandbox](https://sandbox.babylonjs.com/)
-- [Sandbox — Node Material Editor](https://nme.babylonjs.com/)
-- [Sandbox — Node Geometry Editor](https://nge.babylonjs.com/)
-- [Sandbox — Node Particle Editor](https://npe.babylonjs.com/)
-- [Sandbox — GUI Editor](https://gui.babylonjs.com/)
-- [API — Snippet Server](https://snippet.babylonjs.com/)
-- [Tool — Spector.js](https://spector.babylonjs.com/)
-- [Tool — Babylon.js Editor](https://editor.babylonjs.com/)
-- [Tool — Babylon Native](https://github.com/BabylonJS/BabylonNative)
-- [Tool — Babylon React Native](https://github.com/BabylonJS/BabylonReactNative)
-- [Tool — Babylon Toolkit (Unity / Unreal)](https://github.com/BabylonJS/BabylonToolkit)
-- [Tool — DCC Exporters](https://github.com/BabylonJS/Exporters)
-- [Integrations — Community Extensions](https://doc.babylonjs.com/communityExtensions)
-- [Documentation — Physics](https://doc.babylonjs.com/features/featuresDeepDive/physics)
-- [Documentation — WebXR](https://doc.babylonjs.com/features/featuresDeepDive/webXR)
-
-## SDKs (npm)
-
-- [`@babylonjs/core`](https://www.npmjs.com/package/@babylonjs/core)
-- [`@babylonjs/gui`](https://www.npmjs.com/package/@babylonjs/gui)
-- [`@babylonjs/loaders`](https://www.npmjs.com/package/@babylonjs/loaders)
-- [`@babylonjs/materials`](https://www.npmjs.com/package/@babylonjs/materials)
-- [`@babylonjs/post-processes`](https://www.npmjs.com/package/@babylonjs/post-processes)
-- [`@babylonjs/procedural-textures`](https://www.npmjs.com/package/@babylonjs/procedural-textures)
-- [`@babylonjs/serializers`](https://www.npmjs.com/package/@babylonjs/serializers)
-- [`@babylonjs/inspector`](https://www.npmjs.com/package/@babylonjs/inspector)
-- [`@babylonjs/node-editor`](https://www.npmjs.com/package/@babylonjs/node-editor)
-- [`@babylonjs/react-native`](https://www.npmjs.com/package/@babylonjs/react-native)
-- [`babylonjs`](https://www.npmjs.com/package/babylonjs) (UMD distribution)
-
-## Features
-
-- Cross-platform 3D engine — WebGL2, WebGPU, and (via Babylon Native) DirectX / Metal / Vulkan / OpenGL / OpenGL ES
-- TypeScript-first SDK published as scoped `@babylonjs/*` ES modules with tree-shakeable imports
-- Scene graph with cameras, lights, meshes, materials, textures, animations, particles, audio, and physics
-- PBR materials with OpenPBR support, clustered and textured area lighting, and volumetric lighting (v9)
-- Frame Graph, Dynamic IBL Shadows, and Render Graph-driven pipelines (v9)
-- Node Material Editor, Node Geometry Editor, Node Particle Editor, and Node Render Graph Editor
-- Procedural geometry with Node Geometry — runtime-evaluated graphs serialized as JSON
-- Gaussian Splat rendering and 3D Tiles geospatial pipeline with PBR atmosphere (v9)
-- glTF 2.0 first-class import and export with full KHR extension coverage
-- GUI library with Inspector-driven authoring and 3D holographic controls
-- WebXR / VR / AR support including hand tracking, controllers, anchors, and pass-through
-- Physics integration with Havok (recommended), Ammo.js, Cannon.js, Oimo.js, and Recast
-- Babylon Native — C++ host for running Babylon on Windows, macOS, Linux, Android, and iOS
-- Babylon React Native (`@babylonjs/react-native`) for embedding Babylon scenes in mobile apps
-- Inspector — runtime scene debugger with property editing, gizmos, and shader editing
-- Spector.js — frame-by-frame WebGL / WebGPU capture and inspection tool
-- Hosted Playground IDE and Sandbox asset viewer with shareable snippet IDs
-- Snippet API at `snippet.babylonjs.com` powering shareable Playground / NME / NGE / GUI assets
-- Babylon.js Editor — community-maintained visual scene editor
-- Babylon Toolkit — Unity and Unreal exporters for the Babylon runtime
-- First-party DCC exporters for 3ds Max, Maya, and Blender
-- Apache-2.0 licensed, Microsoft-sponsored, community-governed via forum.babylonjs.com
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** info@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/babylon-js/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
